@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myLittleApp">
+
+  <head>
+    <script data-require="angularjs@1.4.8" data-semver="1.4.8"
+        src="https://code.angularjs.org/1.4.8/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.4.8"
+        src="http://code.angularjs.org/1.4.8/angular-route.js"></script>
+    <script src="../js/route/app.js"></script>
+    <script src="../js/controllers/MainController.js"></script>
+    <script src="../js/controllers/UserController.js"></script>
+    <script src="../js/controllers/RepoController.js"></script>
+    <script src="../js/services/githubService.js"></script>
+    <h1>GITHUB APP</H1>
+    <link rel="shortcut icon" href="">
+    
+  </head>
+
+  <body>
+        <h1>GITHUB Viewer</h1>
+        <div ng-view></div>
+  </body>
+</html>
